@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="399" height="229" viewBox="0 0 399 229">
+  <defs>
+    <filter id="BK" x="81" y="80" width="78.5" height="85.5" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Coder" x="206" y="80" width="167.5" height="85.5" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_6" data-name="Group 6" transform="translate(-512 -449)">
+    <g id="Group_5" data-name="Group 5">
+      <g id="Group_4" data-name="Group 4">
+        <g id="Group_3" data-name="Group 3">
+          <g id="Group_2" data-name="Group 2">
+            <circle id="Ellipse_8" data-name="Ellipse 8" cx="114.5" cy="114.5" r="114.5" transform="translate(512 449)" fill="#6b69d6"/>
+            <circle id="Ellipse_9" data-name="Ellipse 9" cx="114.5" cy="114.5" r="114.5" transform="translate(682 449)" fill="#ffef8a"/>
+            <g transform="matrix(1, 0, 0, 1, 512, 449)" filter="url(#BK)">
+              <text id="BK-2" data-name="BK" transform="translate(81 136)" fill="#ffef8a" font-size="60" font-family="TrebuchetMS, Trebuchet MS"><tspan x="0" y="0">BK</tspan></text>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 512, 449)" filter="url(#Coder)">
+              <text id="Coder-2" data-name="Coder" transform="translate(206 136)" fill="#6b69d6" font-size="60" font-family="TrebuchetMS, Trebuchet MS"><tspan x="0" y="0">Coder</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
